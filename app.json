@@ -1,0 +1,7 @@
+{
+  "name": "Nexcloud Heroku",
+  "description": "Nexcloud in your Heroku",
+  "repository": "https://github.com/default-github-user/nextcloud-heroku",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["nexcloud", "docker", "mysql"]
+}
