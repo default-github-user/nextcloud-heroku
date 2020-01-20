@@ -3,5 +3,32 @@
   "description": "Nexcloud in your Heroku",
   "repository": "https://github.com/default-github-user/nextcloud-heroku",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["nexcloud", "docker", "mysql"]
+  "keywords": ["nexcloud", "docker", "mysql"],
+  
+  "env": {
+    "MYSQL_DATABASE": {
+      "description": "MYSQL Database",
+      "generator": "secret"
+    },
+    "MYSQL_HOST": {
+      "description": "MYSQL Database host",
+      "value": "5"
+    },
+    "MYSQL_PASSWORD": {
+      "description": "MYSQL Database password",
+      "value": "5"
+    },
+    "MYSQL_USER": {
+      "description": "MYSQL Database username",
+      "value": "5"
+    },
+    "NEXTCLOUD_ADMIN_PASSWORD": {
+      "description": "Nextcloud Password",
+      "value": "5"
+    },
+    "NEXTCLOUD_ADMIN_USER": {
+      "description": "Nextcloud Username",
+      "value": "5"
+    }
+  },
 }
